@@ -16,3 +16,12 @@ Quand le service est fini, les clients quittent le système et le processus pass
 
 La chaîne sous-jacente est la suivante :
 ![alt text](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/MM1_queue_state_space.svg/605px-MM1_queue_state_space.svg.png)
+
+# Stabilité et régime stationnaire
+La file est stable si et seulement si le taux d'arrivée est strictement plus petit que le taux de départ1,
+i.e. {\displaystyle \lambda <\mu }{\displaystyle \lambda <\mu }.
+On pose : {\displaystyle \rho ={\frac {\lambda }{\mu }}}{\displaystyle \rho ={\frac {\lambda }{\mu }}}.
+
+Le nombre de clients dans le système pendant le régime stationnaire suit une loi géométrique. Plus précisément, la probabilité d'être dans l'état i, 
+c'est-à-dire d'avoir i client dans le système est1 :{\textstyle \pi _{i}=(1-\rho )\cdot \rho ^{i}}{\textstyle \pi _{i}=(1-\rho )\cdot \rho ^{i}}, 
+et le nombre moyen de client est {\displaystyle {\frac {\rho }{1-\rho }}}{\displaystyle {\frac {\rho }{1-\rho }}}.
