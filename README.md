@@ -12,4 +12,7 @@ Une file M/M/1 peut être vue comme un processus stochastique dont l'espace d'é
 Les clients arrivent selon une loi exponentielle de taux λ, changeant l'état du système de i à i + 1.
 Le taux de service suit une loi exponentielle de paramètre μ.     
 Un serveur traite les clients un à un selon le mode premier arrivé, premier servi.       
-Quand le service est fini, les clients quittent le système et le processus passe de l'état i à l'état i - 1.  
+Quand le service est fini, les clients quittent le système et le processus passe de l'état i à l'état i - 1. 
+
+La chaîne sous-jacente est la suivante :
+![alt text](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/MM1_queue_state_space.svg/605px-MM1_queue_state_space.svg.png)
