@@ -21,3 +21,6 @@ La chaîne sous-jacente est la suivante :
 La file est stable si et seulement si le taux d'arrivée est strictement plus petit que le taux de départ
 
 Le nombre de clients dans le système pendant le régime stationnaire suit une loi géométrique.
+
+# Note
+feel free to use it :) 
