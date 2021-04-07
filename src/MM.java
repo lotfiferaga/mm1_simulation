@@ -15,7 +15,7 @@ public static void main(String[] args){
 		start=1;
 				
 		System.out.println(" Debut de simulation");
-		new Stats();
+		new Statis();
 		e= new Event(0,true);
 		new Echean();
 		
@@ -23,8 +23,8 @@ public static void main(String[] args){
 		
 		double finaltime=(System.currentTimeMillis()-time)/1000;       //permet d'avoir le temps d'cution 
 		System.out.println("\n Reussi !\n Temps d'execution :"+ finaltime +"s");
-		Stats.statsTheo(e);
-		Stats.ResultSimu();
+		Statis.statsTheo(e);
+		Statis.ResultSimu();
 	}
 
 }
